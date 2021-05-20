@@ -1,0 +1,63 @@
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.centered {
+    margin-top: 10vh;
+    text-align:center;
+    font-size: 25px;
+}
+
+.container {
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+.row {
+    height: 100px;
+}
+
+.col {
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.col:hover {
+    background-color: lightgray !important;
+}
+
+.border-b {
+    border-bottom: 10px solid black;
+}
+
+
+.border-r {
+    border-right: 10px solid black;
+
+}
+
+.footer {
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: #008080;
+    color:white;
+}
+
+#reset {
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
